@@ -54,7 +54,7 @@ Ext.define('Log.controller.Login', {
 
             pass = Log.util.MD5.encode(pass);
 
-            Ext.get(login.getEl()).mask("Authenticating... Please wait...", 'loading');
+            Ext.get(login.getEl()).mask("Autenticando... Espere Por Favor...", 'loading');
 
             Ext.Ajax.request({
                 url: 'php/login/login.php',
@@ -77,14 +77,17 @@ Ext.define('Log.controller.Login', {
                         Log.util.SessionMonitor.start();
 
                     } else {
-                        Log.util.Util.showErrorMsg(conn.responseText);
+                        //Log.util.Util.showErrorMsg(conn.responseText);
+                        Log.util.Util.showErrorMsg('Nome de usuário ou senha incorreto!');
+
                     }
                 },
                 failure: function(conn, response, options, eOpts) {
 
                     Ext.get(login.getEl()).unmask();
 
-                    Log.util.Util.showErrorMsg(conn.responseText);
+                    //Log.util.Util.showErrorMsg(conn.responseText);
+                    Log.util.Util.showErrorMsg('Servidor Não Está Respondendo!!');
                 }
             });
         }

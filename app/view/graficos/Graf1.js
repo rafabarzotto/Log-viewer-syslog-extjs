@@ -1,19 +1,19 @@
 Ext.define('Log.view.graficos.Graf1', {
-	extend: 'Ext.tab.Panel',
+    extend: 'Ext.tab.Panel',
 
-	alias: 'widget.graf1',
+    alias: 'widget.graf1',
 
-	title: 'Charts',
+    title: 'Charts',
 
-	iconCls: 'icon-grid',
+    iconCls: 'icon-grid',
 
-	autoShow: true,
+    autoShow: true,
 
-	maximizable: true,
+    maximizable: true,
 
 
 
-	/*
+    /*
 	items: [{
 		region: 'center',
 		xtype: 'tabpanel',

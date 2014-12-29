@@ -50,7 +50,7 @@ Ext.define('Log.util.SessionMonitor', {
         Log.util.SessionMonitor.window.hide();
         
         // find and invoke your app's "Logout" button.
-        Ext.ComponentQuery.query('button#logout')[0].fireEvent('click',Ext.ComponentQuery.query('button#logout')[0]);
+        Ext.ComponentQuery.query('menuitem#logout')[0].fireEvent('click',Ext.ComponentQuery.query('menuitem#logout')[0]);
       }
     }]
   }),

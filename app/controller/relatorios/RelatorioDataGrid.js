@@ -56,6 +56,9 @@ Ext.define('Log.controller.relatorios.RelatorioDataGrid', {
 			}
 		});
 
+		console.log(values.from_date);
+		console.log(values.to_date);
+
 		Ext.Msg.show({
             title: 'Store Load Callback',
             msg: 'Sucesso!',

@@ -1,0 +1,7 @@
+{
+    "jscodehints.detectedExclusions": [
+        "/Applications/XAMPP/xamppfiles/htdocs/Log-viewer-syslog-extjs/app/view/Login.js",
+        "/Applications/XAMPP/xamppfiles/htdocs/Log-viewer-syslog-extjs/app/controller/graficos/Graficos.js",
+        "/Applications/XAMPP/xamppfiles/htdocs/Log-viewer-syslog-extjs/app/controller/Login.js"
+    ]
+}

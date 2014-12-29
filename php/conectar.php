@@ -1,7 +1,7 @@
 <?php
  
 //nome do servidor (127.0.0.1)
-$servidor = "192.168.200.37";
+$servidor = "192.168.56.102";
  
 //usuário do banco de dados
 $user = "root";

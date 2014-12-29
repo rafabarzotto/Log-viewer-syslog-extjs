@@ -49,7 +49,7 @@ Ext.define('Log.Application', {
     init: function() {
 
         // Start the mask on the body and get a reference to the mask
-        splashscreen = Ext.getBody().mask('Loading application', 'splashscreen');
+        splashscreen = Ext.getBody().mask('Carregando Aplicação', 'splashscreen');
 
         // Add a new class to this mask as we want it to look different from the default.
         splashscreen.addCls('splashscreen');

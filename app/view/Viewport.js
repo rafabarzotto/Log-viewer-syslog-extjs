@@ -15,5 +15,6 @@ Ext.define('Log.view.Viewport', {
 
     items: [{
         xtype: 'app-main'
+
     }]
 });

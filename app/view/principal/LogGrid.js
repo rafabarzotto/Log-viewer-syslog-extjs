@@ -14,12 +14,11 @@ Ext.define('Log.view.principal.LogGrid', {
 
 	xtype: 'app-main',
 
-
 	columns: [
 
 		{
 			text: 'ID',
-			width: 42,
+			width: 50,
 			dataIndex: 'ID'
 		},
 

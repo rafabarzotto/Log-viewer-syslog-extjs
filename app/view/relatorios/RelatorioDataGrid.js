@@ -12,6 +12,7 @@ Ext.define('Log.view.relatorios.RelatorioDataGrid', {
     width: 200,
     height: 200,
     maximized: true,
+       autoScroll : true,
     
     items: [{
 
@@ -180,7 +181,7 @@ Ext.define('Log.view.relatorios.RelatorioDataGrid', {
 
                 items: [{
                     xtype: 'datefield',
-                    fieldStyle: 'background-color: #00CC99',
+                  //  fieldStyle: 'background-color: #00CC99',
                     format: 'Y-m-d',
                     anchor: '18%',
                     fieldLabel: 'De',
@@ -193,6 +194,7 @@ Ext.define('Log.view.relatorios.RelatorioDataGrid', {
                     anchor: '18%',
                     fieldLabel: 'Até',
                     name: 'to_date',
+                    maxValue: new Date(), // limited to the current date or prior
                     value: new Date() // defaults to today
                 }, {
                     xtype: 'combobox',
